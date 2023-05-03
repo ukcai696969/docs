@@ -3,10 +3,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Controlpanel.gg",
+  title: "Ctrlpanel.gg",
   tagline:
-    "ControlPanel's Dashboard is a free and open-source management panel for Pterodactyl with credit based billing and lots of customization",
-  url: "https://controlpanel.gg",
+    "Ctrlpanel's Dashboard is a free and open-source management panel for Pterodactyl with credit based billing and lots of customization",
+  url: "https://ctrlpanel.gg",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,9 +16,9 @@ module.exports = {
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: "Controlpanel (CPGG)",
+      title: "Ctrlpanel (CPGG)",
       logo: {
-        alt: "Controlpanel logo",
+        alt: "Ctrlpanel logo",
         src: "img/controlpanel.png",
       },
       items: [
@@ -30,7 +30,7 @@ module.exports = {
         },
 
         {
-          href: "https://market.controlpanel.gg",
+          href: "https://market.ctrlpanel.gg",
           label: "Extention Hub",
           position: "left",
         },
@@ -45,7 +45,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://demo.controlpanel.gg",
+          href: "https://demo.ctrlpanel.gg",
           label: "Demo",
           position: "right",
         },
@@ -55,7 +55,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://github.com/ControlPanel-gg/dashboard",
+          href: "https://github.com/Ctrlpanel-gg/panel",
           label: "GitHub",
           position: "right",
         },
@@ -87,7 +87,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/ControlPanel-gg/dashboard",
+              href: "https://github.com/Ctrlpanel-gg/panel",
             },
           ],
         },
@@ -104,7 +104,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          lastVersion: "0.9",
+          lastVersion: "0.9.1",
           // Please change this to your repo.
           editUrl: "https://github.com/ControlPanel-gg/docs/tree/main/",
         },
